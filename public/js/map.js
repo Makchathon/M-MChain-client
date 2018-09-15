@@ -307,7 +307,7 @@ $(document).ready(function () {
 				socket.emit("requestPlaces", {
 					latitude: p.coords.latitude,
 					longitude: p.coords.longitude,
-					range: 0.0001
+					range: 0.0005
 				});
 
 				// map.panTo(new google.maps.LatLng(p.coords.latitude, p.coords.longitude));
